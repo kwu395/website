@@ -1,0 +1,15 @@
+.image {
+    position: relative;
+    top: 28px;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    position: absolute;
+    left: 50vw;
+    top: 22vh;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}

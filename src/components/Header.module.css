@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    left: 50vw;
+    top: 15vh;
+    /* background-color: black; */
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    top: 5vh;
+    font-weight: 900;
+}
